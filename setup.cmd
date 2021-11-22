@@ -1,0 +1,1 @@
+mklink "%USERPROFILE%\.npmrc" ".npmrc"
