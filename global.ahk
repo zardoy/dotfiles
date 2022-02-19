@@ -2,15 +2,15 @@
 ; shortcut into shell:startup
 
 ; sound menu
-#o::
+#s::
     Run, rundll32.exe Shell32.dll`,Control_RunDLL Mmsys.cpl`,`,0 ; 1
 return
 
-^#a::
+#z::
     Send {Media_Play_Pause}
-^#z::
++#z::
     Send {Media_Prev}
-^#x::
+!#z::
     Send {Media_Next}
 return
 
