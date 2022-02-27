@@ -1,0 +1,1 @@
+ln .npmrc ~/.npmrc
