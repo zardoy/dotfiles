@@ -18,11 +18,11 @@ brew "guile"
 # Hash utilities
 # brew "md5sha1sum"
 # UPnP IGD client library and daemon
-brew "miniupnpc"
+# brew "miniupnpc"
 # Cross platform, open source .NET development framework
 # brew "mono"
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+brew "python"
 # Customize mouse buttons, wheels and cursor speed
 cask "steermouse"
 cask "microsoft-edge"
