@@ -27,4 +27,6 @@ brew "python"
 cask "steermouse"
 cask "microsoft-edge"
 cask "visual-studio-code"
+# /Applications/IINA.app/Contents/MacOS/iina-cli
 cask "iina"
+cask "youtube-dl"
