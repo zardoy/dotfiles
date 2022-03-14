@@ -74,7 +74,9 @@ return
 
 CapsLock & o::
 	If GetKeyState("Shift", "P")
-		send +{delete}
-	Else
 		send {delete}
+	Else If GetKeyState("Ctrl", "P")
+		send ^{backspace}
+	Else
+		send {backspace}
 return
