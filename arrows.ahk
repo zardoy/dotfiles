@@ -9,37 +9,53 @@ SetCapsLockState, AlwaysOff
 CapsLock::Send {Esc}
 
 CapsLock & i::
-	If GetKeyState("Shift", "P")
+	if GetKeyState("Ctrl", "P") and GetKeyState("Shift", "P")
+		send ^+{up}
+	Else If GetKeyState("Shift", "P")
 		send +{up}
 	Else if GetKeyState("Ctrl", "P")
 		send ^{up}
+	Else if GetKeyState("Alt", "P")
+		send !{up}
 	Else
 		send {up}
 return
 
 CapsLock & j::
-	If GetKeyState("Shift", "P")
+	if GetKeyState("Ctrl", "P") and GetKeyState("Shift", "P")
+		send ^+{left}
+	Else If GetKeyState("Shift", "P")
 		send +{left}
 	Else if GetKeyState("Ctrl", "P")
 		send ^{left}
+	Else if GetKeyState("Alt", "P")
+		send !{left}
 	Else
 		send {left}
 return
 
 CapsLock & k::
-	If GetKeyState("Shift", "P")
+	if GetKeyState("Ctrl", "P") and GetKeyState("Shift", "P")
+		send ^+{down}
+	Else If GetKeyState("Shift", "P")
 		send +{down}
 	Else if GetKeyState("Ctrl", "P")
 		send ^{down}
+	Else if GetKeyState("Alt", "P")
+		send !{down}
 	Else
 		send {down}
 return
 
 CapsLock & l::
-	If GetKeyState("Shift", "P")
+	if GetKeyState("Ctrl", "P") and GetKeyState("Shift", "P")
+		send ^+{right}
+	Else If GetKeyState("Shift", "P")
 		send +{right}
 	Else if GetKeyState("Ctrl", "P")
 		send ^{right}
+	Else if GetKeyState("Alt", "P")
+		send !{right}
 	Else
 		send {right}
 return
