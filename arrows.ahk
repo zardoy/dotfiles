@@ -11,7 +11,7 @@ CapsLock::Send {Esc}
 CapsLock & i::
 	If GetKeyState("Shift", "P")
 		send +{up}
-	Else if If GetKeyState("Ctrl", "P")
+	Else if GetKeyState("Ctrl", "P")
 		send ^{up}
 	Else
 		send {up}
@@ -20,7 +20,7 @@ return
 CapsLock & j::
 	If GetKeyState("Shift", "P")
 		send +{left}
-	Else if If GetKeyState("Ctrl", "P")
+	Else if GetKeyState("Ctrl", "P")
 		send ^{left}
 	Else
 		send {left}
@@ -29,7 +29,7 @@ return
 CapsLock & k::
 	If GetKeyState("Shift", "P")
 		send +{down}
-	Else if If GetKeyState("Ctrl", "P")
+	Else if GetKeyState("Ctrl", "P")
 		send ^{down}
 	Else
 		send {down}
@@ -38,7 +38,7 @@ return
 CapsLock & l::
 	If GetKeyState("Shift", "P")
 		send +{right}
-	Else if If GetKeyState("Ctrl", "P")
+	Else if GetKeyState("Ctrl", "P")
 		send ^{right}
 	Else
 		send {right}
