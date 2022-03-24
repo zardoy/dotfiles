@@ -6,7 +6,7 @@ SetWorkingDir %A_ScriptDir% ; Ensures a consistent starting directory.
 ;Alt::Ctrl
 ;Ctrl::Alt
 SetCapsLockState, AlwaysOff
-CapsLock::Send {Esc}
+; CapsLock::Send {Esc}
 
 CapsLock & i::
 	if GetKeyState("Ctrl", "P") and GetKeyState("Shift", "P")
