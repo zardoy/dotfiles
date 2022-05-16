@@ -1,0 +1,14 @@
+{
+    "enableExtensions": [
+        "zardoy.keybindings",
+        "usernamehw.commands",
+        "usernamehw.errorlens",
+        "zardoy.extra-commands",
+        "zardoy.typescript-server-logger",
+        "likun.comma-enter",
+        "vscode-icons-team.vscode-icons",
+        "zardoy.fix-all-json",
+        "pustelto.bracketeer",
+        "hjdarnel.vscode-change-case"
+    ]
+}
