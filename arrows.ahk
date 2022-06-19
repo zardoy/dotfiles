@@ -96,3 +96,7 @@ CapsLock & o::
 	Else
 		send {backspace}
 return
+
+CapsLock & u::
+	send {Esc}
+return
