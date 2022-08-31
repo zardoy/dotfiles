@@ -8,8 +8,10 @@ return
 
 #z::
     Send {Media_Play_Pause}
+return
 +#z::
     Send {Media_Prev}
+return
 !#z::
     Send {Media_Next}
 return
