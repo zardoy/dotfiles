@@ -93,6 +93,8 @@ CapsLock & o::
 		send {delete}
 	Else If GetKeyState("Ctrl", "P")
 		send ^{backspace}
+	Else If GetKeyState("Alt", "P")
+		send !{backspace}
 	Else
 		send {backspace}
 return
